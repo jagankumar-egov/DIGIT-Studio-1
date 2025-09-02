@@ -54,7 +54,7 @@
   "dependencies": {    
     "react-data-table-component": "7.6.2",
     "@egovernments/digit-ui-components-css": "0.2.1",
-    "@egovernments/digit-ui-libraries": "1.8.11",
+    "@egovernments/digit-ui-libraries": "1.8.13",
     "@egovernments/digit-ui-svg-components": "1.0.14",
     "@googlemaps/js-api-loader": "1.13.10",
     "autoprefixer": "^10.4.15",
@@ -70,7 +70,9 @@
     "styled-components":"5.0.0"
   },
   "resolutions": {
-    "styled-components": "5.0.0"
+    "styled-components": "5.0.0",
+    "glob": "7.2.3",
+    "**/minimatch": "7.4.6"
   },
   "browserslist": {
     "production": [

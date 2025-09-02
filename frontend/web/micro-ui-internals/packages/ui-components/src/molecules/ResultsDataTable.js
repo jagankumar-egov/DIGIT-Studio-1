@@ -3,13 +3,14 @@ import { useTranslation } from "react-i18next";
 import _ from "lodash";
 import { Card, Loader } from "../atoms";
 import { CustomSVG } from "../atoms";
-import DataTable from "react-data-table-component";
+//import DataTable from "react-data-table-component";
 import CheckBox from "../atoms/CheckBox";
 import { dataTableCustomStyles } from "../constants/styles/dataTableCustomStyles";
 import { SVG } from "../atoms";
 import CardLabel from "../atoms/CardLabel";
 import Button from "../atoms/Button";
 import TextInput from "../atoms/TextInput";
+import DataTable from "react-data-table-component";
 
 const ResultsDataTable = ({
   data,
